@@ -1,0 +1,29 @@
+{
+	"name": "@athena-computer/wiring",
+	"version": "1.0.0",
+	"main": "out/init.lua",
+	"repository": "https://github.com/athena-computer/wiring.git",
+	"author": "katsumi143",
+	"license": "MIT",
+	"scripts": {
+		"dev": "rbxtsc -w",
+		"build": "rbxtsc"
+	},
+	"types": "out/index.d.ts",
+	"files": [
+		"out",
+		"!**/*.tsbuildinfo"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@rbxts/compiler-types": "^2.1.1-types.0",
+		"@rbxts/types": "^1.0.714",
+		"@voxelified/kel": "link:../kel",
+		"typescript": "^5.2.2"
+	},
+	"dependencies": {
+		"@rbxts/beacon": "^2.1.1"
+	}
+}

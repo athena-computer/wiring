@@ -20,10 +20,10 @@
 	"devDependencies": {
 		"@rbxts/compiler-types": "^2.1.1-types.0",
 		"@rbxts/types": "^1.0.714",
-		"@voxelified/kel": "link:../kel",
 		"typescript": "^5.2.2"
 	},
 	"dependencies": {
-		"@rbxts/beacon": "^2.1.1"
+		"@rbxts/beacon": "^2.1.1",
+		"@voxelified/kel": "^0.0.3"
 	}
 }

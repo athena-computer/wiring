@@ -27,9 +27,13 @@
   resolved "https://registry.yarnpkg.com/@rbxts/types/-/types-1.0.714.tgz#a8f1334582e95e7b8d276fd44808c223774e3e27"
   integrity sha512-6voqpRotKWoMNpmD/PoXb0xA0CEUZmy1xZn/gD0bSQOI27WcgLk500eUG0jfBoTa+EOktvdk2Fv0oSgbgXVovQ==
 
-"@voxelified/kel@link:../kel":
-  version "0.0.0"
-  uid ""
+"@voxelified/kel@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@voxelified/kel/-/kel-0.0.3.tgz#aa77a9f4ac45364b02b4ca539291c039abd69ee6"
+  integrity sha512-zGYNSFfijMn1g7fq0D+1u+d4tRtemMmfL3Ou7VYcV5nlKe2qsggIpdisPt4oWwmI+fnVhn9Lhmkhd4pAAwsQaw==
+  dependencies:
+    "@rbxts/object-utils" "^1.0.4"
+    "@rbxts/services" "^1.5.1"
 
 typescript@^5.2.2:
   version "5.2.2"
